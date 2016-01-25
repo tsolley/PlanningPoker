@@ -9,7 +9,7 @@ Setting Up Gradle Project
 
 2. Unzip and place on your C drive.
 
-3. Setup a System Environment Variable. (GRADLE_HOME, C:\gradle-2.10)
+3. Setup a System Environment Variable. (GRADLE_HOME)
 
 4. Add that to your PATH or path. (%GRADLE_HOME%\bin)
 
