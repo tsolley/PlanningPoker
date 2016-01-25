@@ -9,7 +9,7 @@ Setting Up Gradle Project
 
 2. Unzip and place on your C drive. 
 
-3. Setup a System Environment Variable. (GRADLE_HOME).
+3. Setup a System Environment Variable. (GRADLE_HOME)
 
 4. Add that to your PATH or path. (%GRADLE_HOME%\bin)
 
@@ -31,8 +31,8 @@ Setting Up Gradle Project
 6. After you have cloned the project, navigate to the root directory. (PlanningPoker)
 
 7. Run the following commands in the console:
-	- a. gradle cleanEclipse
-	- b. gradle eclipse
-	- c. gradle build
+	- gradle cleanEclipse
+	- gradle eclipse
+	- gradle build
 
 8. Then import the project in STS as a Gradle project.
