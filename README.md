@@ -5,11 +5,11 @@ Plus I made the project a Spring Boot project but it is configured to run from a
 
 Setting Up Gradle Project
 
--1) Install Gradle http://gradle.org/gradle-download/ -> Complete distribution
--2) Unzip and place on your C drive. 
--3) Setup a System Environment Variable (GRADLE_HOME)
--4) Add that to your PATH or path (%GRADLE_HOME%\bin)
--5) Open CMD and run gradle --version. You should see something like below:
+1. Install Gradle http://gradle.org/gradle-download/ -> Complete distribution
+2. Unzip and place on your C drive. 
+3. Setup a System Environment Variable (GRADLE_HOME)
+4. Add that to your PATH or path (%GRADLE_HOME%\bin)
+5. Open CMD and run gradle --version. You should see something like below:
 	
 	------------------------------------------------------------
 	Gradle 2.10
@@ -24,10 +24,10 @@ Setting Up Gradle Project
 	JVM:          1.8.0_71 (Oracle Corporation 25.71-b15)
 	OS:           Windows 7 6.1 amd64
 
--6) After you have cloned the project, navigate to the root directory. (PlanningPoker)
--7) Run the following commands in the console:
+6. After you have cloned the project, navigate to the root directory. (PlanningPoker)
+7. Run the following commands in the console:
 	a) gradle cleanEclipse
 	b) gradle eclipse
 	c) gradle build
 
--8) Then import the project in STS as a Gradle project.
+8. Then import the project in STS as a Gradle project.
