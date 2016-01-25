@@ -4,34 +4,11 @@
 		<property name="context-root" value="PlanningPoker"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-aws/1.1.0.BUILD-SNAPSHOT/aaf83df2966fda41bca66bf343897a5f553d18c1/spring-cloud-starter-aws-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-aws-jdbc/1.1.0.BUILD-SNAPSHOT/37bfd2a3ee667a6208ca0241a1e069ff75ddebd8/spring-cloud-starter-aws-jdbc-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-aws-messaging/1.1.0.BUILD-SNAPSHOT/4ae133f296c62b8c4fd675497e25f97c89f33899/spring-cloud-starter-aws-messaging-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.1.RELEASE/dd3c0e6cdee57e591eabc95a33b16233547eec91/spring-boot-starter-web-1.3.1.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-websocket/1.3.1.RELEASE/54a645dae69e2506af8d0cf640c15c17cb34780e/spring-boot-starter-websocket-1.3.1.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-context/1.1.0.BUILD-SNAPSHOT/49d9a8fe5adac9bcb00fa2b7df53ae235e82dbe9/spring-cloud-aws-context-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-autoconfigure/1.1.0.BUILD-SNAPSHOT/75e932f53fa115fd3d12a2c8cfaf54db11a0fa77/spring-cloud-aws-autoconfigure-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-jdbc/1.1.0.BUILD-SNAPSHOT/b0425258b59e0bb51e9aef5adbb366e65d9fb81a/spring-cloud-aws-jdbc-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-messaging/1.1.0.BUILD-SNAPSHOT/6150404e0ca51c12f43cae4b75db0839c1a2b87d/spring-cloud-aws-messaging-1.1.0.BUILD-SNAPSHOT.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.1.RELEASE/622e02ce77b3bea202b596a6fa0c40525ec81e1c/spring-boot-starter-1.3.1.RELEASE.jar">
@@ -55,58 +32,10 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-websocket/4.2.4.RELEASE/e90ec4fd65454b80e61358adf5503cd904da165f/spring-websocket-4.2.4.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-core/1.1.0.BUILD-SNAPSHOT/5a72a7d8e739d53ebde11c07cbee422ccdb6e5c8/spring-cloud-aws-core-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.4.RELEASE/23cd0109e4eafc5629547e3680b0c4031e82efdd/spring-context-4.2.4.RELEASE.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.1.RELEASE/7ea554d1d14e180ee080abc3e7c19e316a700188/spring-boot-1.3.1.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.1.RELEASE/16ecb1f0b3ccbc8ecd52fa9de57a273d5a3eea00/spring-boot-autoconfigure-1.3.1.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.3.1.RELEASE/7a1a3945517ee71360e4008bb9724bc4cb8f9fe4/spring-boot-actuator-1.3.1.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-aws-actuator/1.1.0.BUILD-SNAPSHOT/bef7ce7382c1c149aba21bd434d4cdc198768df8/spring-cloud-aws-actuator-1.1.0.BUILD-SNAPSHOT.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.2.4.RELEASE/428f5d6ab3eba5ddd0b89474379ccfe867a42cc1/spring-context-support-4.2.4.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ses/1.10.30/b700a3c2a7ca7473bcb6f9c545566e633bdf93f8/aws-java-sdk-ses-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudwatch/1.10.30/332f4be9388d13181ebeef395dd20d7b7a901a09/aws-java-sdk-cloudwatch-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.5.4/e8f442af51a2cc8aea571e826998b43822f3c4bf/javax.mail-api-1.5.4.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/elasticache-java-cluster-client/1.0.61.0/a59805775c0ef77b3cb336850c1b08115c51becc/elasticache-java-cluster-client-1.0.61.0.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-elasticache/1.10.30/711d55c08cf8b9420233175103d67ab81603b0b1/aws-java-sdk-elasticache-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.2.4.RELEASE/7aa1c3c817b0a04796e6570a2c07ac23248c1ee0/spring-jdbc-4.2.4.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.0.30/44765cbbe3ea864923c16f19e081522f8058a6a5/tomcat-jdbc-8.0.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rds/1.10.30/e406337dd51c870c33f84b1999f1033abf006f9a/aws-java-sdk-rds-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-iam/1.10.30/37b679e6b4402238b1b068f8475d6618b425869f/aws-java-sdk-iam-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.10.30/1f4dd2dbed5cd3832124dc893c65e53c16dbc15b/aws-java-sdk-sns-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.10.30/55f3845cb6aaebfd23666ad235debb2530237245/aws-java-sdk-sqs-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.1.RELEASE/7ea554d1d14e180ee080abc3e7c19e316a700188/spring-boot-1.3.1.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.1.RELEASE/ba9d2d5094d83cf40dab474d6526befb5ce85a74/spring-boot-starter-logging-1.3.1.RELEASE.jar">
@@ -133,28 +62,10 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.4.RELEASE/dc8e0874b53435f3e277d9da5aebd8b93cc7cf64/spring-beans-4.2.4.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.4.RELEASE/23cd0109e4eafc5629547e3680b0c4031e82efdd/spring-context-4.2.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.4.RELEASE/15b6f6d61bc68fe2cc6cbd63e2329601afb8b39/spring-expression-4.2.4.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.10.30/b3e80ce1d0d59a1ceab4001221cf8d776e2565e6/aws-java-sdk-core-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.10.30/caba92c95217ff25fa6208b066c77cfd9cc0bcb9/aws-java-sdk-s3-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.10.30/54e65b032e766e7c361ee0cb8f1874d0d8e036a8/aws-java-sdk-ec2-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.10.30/aa521e537b32de9bd841a7538dfb3c66c2bcac02/aws-java-sdk-cloudformation-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.3.1.RELEASE/7671f6c69cf25a513b555ddb4ffab64a9b1fc194/spring-boot-starter-actuator-1.3.1.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.4.RELEASE/66e1a131263f5f9ba95943061b22ff2666930ca6/spring-tx-4.2.4.RELEASE.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.0.30/48258c438c681d1322ccb15f01d58238d14c1274/tomcat-juli-8.0.30.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/d90276fff414f06cb375f2057f6778cd63c6082f/logback-classic-1.1.3.jar">
@@ -169,9 +80,6 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.13/b5f4685073a6ffba6bf7e1d51e2b5fb83bdfa953/log4j-over-slf4j-1.7.13.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -184,22 +92,10 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/7e3cecc566df91338c6c67883b89ddd05a17db43/httpclient-4.5.1.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-kms/1.10.30/e70e34f2d377339b930f793e79c98fa261be74b5/aws-java-sdk-kms-1.10.30.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/tlewis/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>
