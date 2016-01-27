@@ -1,0 +1,55 @@
+#card {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #888;
+	margin: 5%;
+	padding: 10px;
+	height: 350px;
+	width: 250px;
+}
+
+#points {
+	font-size: 42px;
+	text-align: center;
+	height: 100px !important;
+}
+
+.marquee {
+	-webkit-animation: leftThenRight 4s linear;
+}
+
+.mainContainer {
+	background-image: linear-gradient(0deg, #ddd, #fff);
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.pNav {
+	background-color: #990f0f;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #c22525 !important;
+	color: #fff !important;
+}
+
+.pNavTitle {
+	color: #fff !important;
+}
+
+body {
+	font-family: 'Georgia', serif;
+}
+
+html, body, .container-fluid {
+    height:100%;
+}
+
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,11 +18,46 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Planning Poker!</h1>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/poker.js"></script>
+    
+  	<nav class="navbar navbar-default pNav" style="margin-bottom:0px;">
+	  	<div class="container">
+	  		<div class="navbar-header">
+	  			<a class="navbar-brand pNavTitle" href="#"><b>Planning Poker</b></a>
+	  		</div>
+	  		<div class="collapse navbar-collapse">
+	  			<ul class="nav navbar-nav">
+	  				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+	  				<li><a href="#">Link 1</a></li>
+	  				<li><a href="#">Link 2</a></li>
+	  				<li><a href="#">Link 3</a></li>
+	  			</ul>
+	  			<ul class="nav navbar-nav navbar-right">
+	  				<li><a href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></a></li>
+	  			</ul>
+	  		</div>
+	  	
+	    
+	    </div>
+  	</nav>
+  	<div class="container-fluid mainContainer">
+  		<div class="container">
+  			<h2>Welcome to Planning Poker!</h2>
+			  
+		   	<div id="card">
+			   	<h3>Story Name</h3>
+			   	<span class="marquee">This is text.</span>
+			   	
+			   	<input type="text" id="points" class="form-control" />
+			   	
+			   	<button type="button" class="btn btn-default">Submit</button>
+			</div>
+  		</div>
+  	</div>
+   	
   </body>
 </html>
